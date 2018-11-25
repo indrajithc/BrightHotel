@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global */
+* {
+    box-sizing: border-box;
+}
+ 
+body,
+html {
+    height: 100%;
+    min-height: 100%;
+}
+ 
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    margin: 0;
+    background-color: #e7e7e7;
+}
+/* Credit Card */
+.credit-card {
+    width: 400px;
+    height: 400px;
+    margin: 60px auto 0;
+    
+    border-radius: 6px;
+   
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	
+	padding: 20px;
+	text-align: center;
+	
+}
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+ 
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+/* Title */
+.title {
+    font-size: 18px;
+    margin: 0;
+    color:#5e6977;
+}
+/* Common */
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: #86939e;
+}
+/* Card Number */
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+/* Date Field */
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: url('caret.png') no-repeat;
+    background-position: 85% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+/* Card Verification Field */
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+/* Buttons Section */
+
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 10px;
+	background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    opacity: 0.9;
+
+}
+ 
+ .proceed-btn:hover {
+  opacity: 1;
+}
+.proceed-btn {
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+
+}
+ 
+
+.proceed-btn a {
+    text-decoration: none;
+}
+ 
+.proceed-btn a {
+    color: #fff;
+}
+ 
+
+
+
+
+
+.bg-image {
+  /* The image used */
+  background-image: url("image.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

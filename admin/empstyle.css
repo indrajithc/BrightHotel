@@ -1,0 +1,163 @@
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width:500px;
+  padding: 18px;
+
+  height: 400px;
+}
+.bg-text-nopo {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color:#080808 ;
+
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  
+  z-index: 2;
+  width:500px;
+  padding: 20px;
+      border-right-width: 1px;
+  border-top-width: 100px;
+      padding-top: 10px;
+  height: 500px;
+}
+tr{ line-height: 10px;
+
+}
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password], input[type=textarea] {
+  width: 80%;
+  padding: 10px;
+  margin: 3px 0 10px 0;
+  border: none;
+  background: #f5f5f5;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:#FFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+.title-cust {
+  color:#FFF !important;
+}
+
+.color-white {
+  
+color: #fff  !important;  
+}
+
+.select-cust  select{
+      color: #fff !important; 
+    padding: .8rem;
+  
+}
+  
+  
+  
+  .btn-primary {
+    background-image: -webkit-linear-gradient(top,#337ab7 0,#265a88 100%);
+    background-image: -o-linear-gradient(top,#337ab7 0,#265a88 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#265a88));
+    background-image: linear-gradient(to bottom,#337ab7 0,#265a88 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #245580;
+}
+.error {
+  color: #FF0000;
+}
+  body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #080808;
+}
+
+* {
+  box-sizing: border-box;
+
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+
+  /* Control the height of the image */
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+     @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
